@@ -1,0 +1,32 @@
+﻿[ eGTouch Release Note ]
+v1.00
+		-First Release of eGTouch driver.
+v1.01
+		-Auto detect BaudRate
+		-Support Linux standard multi-touch protocol
+		-Fix right click issue
+		-PCAP controller won't read the calib param file.
+v2.0
+		-Support utility eGTouchU
+		-Support Multi Device
+		-Add two more report mode SINGLE_TOUCH_CLICK, SINGLE_TOUCH_RELEASE ( please see document for details )
+		-Support sound card beep and buzzer beep.
+v2.1
+		-Available for detecting Xrandr rotation ( x86 system )
+v2.2
+		-Fix the issue that kernel 3.2 driver couldn't work well.
+		-Under ARM system, available for do detecting Xrandr rotation.
+		-Add command line calibration tool eCalib into driver package.
+		-Available for Saturn v1.08D1 calibration
+		-The calibration data is now store at /etc/eGTouchX.param
+v2.3
+		-Available for two more custom UART path
+		-Support manually setting your own resolution
+		-Fix the issue of identifying wrong report descriptor which may result in wrong position of point.
+
+v2.4
+		-Support PS/2 EETI device.	
+		-Fix out-of-control issue of right click on X-version 1.11 above.
+
+v2.5
+		-Fix some special case of EETI controller.

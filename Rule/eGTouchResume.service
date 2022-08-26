@@ -1,0 +1,13 @@
+[Unit]
+Description=eGTouch Resume Service
+After=suspend.target
+
+[Service]
+User=root
+Group=root
+Type=oneshot
+ExecStart=/bin/bash -c 'kill -s SIGVTALRM $(pgrep eGTouchD)'
+StandardOutput=syslog
+
+[Install]
+WantedBy=suspend.target

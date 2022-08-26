@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=eGTouch Utility
+Comment=eGTouch Utility
+Exec=/usr/local/eGTouch64withX/eGTouchU
+Icon=/usr/local/eGTouch64withX/eGTouchU.png
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;

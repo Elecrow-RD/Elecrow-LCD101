@@ -1,0 +1,13 @@
+[Unit]
+SourcePath=/usr/bin/eGTouchD
+
+[Service]
+Type=forking
+User=root
+Group=root
+ExecStart=/usr/bin/eGTouchD start 
+ExecReload=/usr/bin/eGTouchD restart
+ExecStop=/usr/bin/eGTouchD stop
+
+[Install]
+WantedBy=multi-user.target

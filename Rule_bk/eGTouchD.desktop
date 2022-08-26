@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=eGTouchD
+Comment=eGTouchD
+Exec=sudo /usr/bin/eGTouchD
+
+Terminal=false
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=check window
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Autostart-enabled=true

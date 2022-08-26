@@ -1,0 +1,113 @@
+2018/8/22 v2.5.6722
+	-Support scan more USB devices.
+
+2018/12/03 v2.5.7103
+	-Support 80H84 series.
+	-Fix parsing Vkey data problem.
+	-Fix UART resistive controller report point error.
+
+2018/12/21 v2.5.7121
+	-Support Key combination, ex:"ctrl"+"A"
+	(keycode:https://elixir.bootlin.com/linux/latest/source/include/uapi/linux/input-event-codes.h)
+
+2019/02/01 v2.5.7301
+	-Fix send wrong touch data when using active pen.
+
+2019/02/18 v2.5.7318
+	-Report resolution change to 2048.
+
+2019/02/22 v2.5.7322
+-Support scan specific Product ID only.
+
+2019/02/25 v2.5.7325
+	-Adjust input event setting.
+
+2019/03/08 v2.5.7408
+	-Improve compatibility for Android system.
+
+2019/03/13 v2.5.7413
+	-Support HID Keyboard.
+
+2019/04/10 v2.5.7510
+	-Improve scan device process.
+
+2019/05/02 v2.5.7602
+	-Fix touch data problem when using UART interface.
+
+2019/05/08 v2.5.7608
+	-Fix mouse right click function.
+
+2019/06/13 v2.5.7713
+	-Improve compatibility for Android system.
+
+2019/06/18 v2.5.7718
+	-Improve scan USB device process.
+	-Improve compatibility for Android system.
+
+2019/08/22 v2.5.7922
+	-Improve driver initial process for Raptor.
+
+2019/08/30 v2.5.7930
+	-Support multi monitor.
+
+2019/10/18 v2.5.8118
+	-Fix report format problem about Raptor 1.12 & Raptor 1.13.
+
+2019/10/24 v2.5.8124
+	-Improve monitor mapping process.
+
+2019/10/30 v2.5.8130
+	-Improve monitor mapping process.
+
+2019/12/05 v2.5.8305
+	-Improve monitor mapping process.
+
+2019/12/15 v2.5.8315
+	-Scan more UART device path.
+
+2020/01/08 v2.5.8408
+	-Add the physical path name to create Android input device.
+
+2020/02/13 v2.5.8513
+	-Add the physical path name to create Linux input device.
+
+2020/02/20 v2.5.8520
+	-Improve driver initial process.
+	-Fix detect monitor rotation function.
+
+2020/03/19 v2.5.8619
+	-Update setup script.
+
+2020/03/25 v2.5.8625
+	-Update setup script.
+	-Fix monitor mapping problem after system suspend resume.
+
+2020/03/30 v2.5.8630
+	-Update programming guide.
+
+2020/04/08 v2.5.8708
+	-Fix monitor mapping problem.
+	-Fix multi touch controller problem.
+	-Fix click on release function.
+
+2020/05/05 v2.5.8805
+	-Update setup script.
+	-Update programming guide.
+	-Improve performance.
+
+2020/05/25 v2.5.8825
+	-Improve driver initial process.
+	-Fix monitor mapping problem for resistive controller.
+
+2020/07/29 v2.5.9025
+	-Fix resolution issue.
+
+2020/08/21 v2.5.9321
+	-Support ETR8000.
+	-support 80H84 series point calibration.
+
+2020/11/04 v2.5.9406
+	-Update Android calibration APK eGalaxCalibrator_v0.17.
+		-Support 1.018 FW of MERCURY controller.
+		-Screen rotation follow system setting.
+	-Set touch device to external device in Android.
